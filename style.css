@@ -1,0 +1,40 @@
+/* Search & Filter Styles */
+body
+{
+	display:block;
+}
+.cleancoded p
+{
+	margin-top: 1em;
+	display:inline-block;
+}
+.cleancoded ul
+{
+	display:inline-block;
+}
+.cleancoded li
+{
+	list-style: none;
+	display:inline-block;
+	padding-right:10px;
+}
+
+/* If in a widget area make a single column by adding display block  */
+.widget-area .cleancoded li, .widget-area .cleancoded p
+{
+	display:block;
+}
+.cleancoded label
+{
+	display:block;
+}
+.cleancoded h4
+{
+	margin:15px 0;
+	font-size:16px;
+}
+
+.cleancoded ul > li > ul:not(.children)
+{
+	margin-left:0;
+}
